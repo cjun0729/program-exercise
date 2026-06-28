@@ -1,0 +1,6 @@
+﻿  PrintfAndScanf.cpp
+E:\program exercise\c++\ConsoleApplication1\PrintfAndScanf\PrintfAndScanf.cpp(52,10): warning C4477: 'scanf_s' : 格式字串 '%9s' 需要 'unsigned int' 類型的引數，但 variadic 引數 2 的類型為 'size_t'
+      E:\program exercise\c++\ConsoleApplication1\PrintfAndScanf\PrintfAndScanf.cpp(52,10):
+      此引數可用為緩衝區大小
+  
+  PrintfAndScanf.vcxproj -> E:\program exercise\c++\ConsoleApplication1\x64\Debug\PrintfAndScanf.exe

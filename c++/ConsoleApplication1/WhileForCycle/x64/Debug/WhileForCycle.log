@@ -1,0 +1,4 @@
+﻿  WhileForCycle.cpp
+E:\program exercise\c++\ConsoleApplication1\WhileForCycle\WhileForCycle.cpp(22,18): warning C4018: '<=': 已簽署/未簽署不相符
+E:\program exercise\c++\ConsoleApplication1\WhileForCycle\WhileForCycle.cpp(39,19): warning C4018: '<=': 已簽署/未簽署不相符
+  WhileForCycle.vcxproj -> E:\program exercise\c++\ConsoleApplication1\x64\Debug\WhileForCycle.exe

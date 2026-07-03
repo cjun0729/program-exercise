@@ -1,0 +1,3 @@
+﻿  define_function.cpp
+E:\program exercise\c++\ConsoleApplication1\define_function\define_function.cpp(2,9): warning C4067: 未預期的語彙基元，接著前置處理器指示詞 - 必須是新行
+  define_function.vcxproj -> E:\program exercise\c++\ConsoleApplication1\x64\Debug\define_function.exe

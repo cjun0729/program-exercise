@@ -1,0 +1,64 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+#include<ctype.h>
+int main() {
+	//常用字符函數
+	//isdigit => 判斷是否為數字字符
+	char a = '7';
+	int r= isdigit(a);
+	if (r) {
+		printf("%c是一個數字字符\n",a);
+	}
+	else {
+		printf("%c不是一個數字字符\n", a);
+	}
+	printf("===============================\n");
+	//=====================================
+	//islower => 判斷是否為小寫字符
+	//isupper => 判斷是否為大寫字符
+	char b = 'b';
+	int rb = islower(b);
+	if (rb) {
+		printf("%c是一個小寫字符\n", b);
+	}
+	else {
+		printf("%c不是一個小寫字符\n", b);
+	}
+	printf("===============================\n");
+	//=====================================
+	//isalpha => 判斷是否為英文字符
+	//isalnum=> 判斷是否為英文或數字字符
+	char c = '7';
+	if (isalnum(c)) {
+		printf("%c是一個數字or英文字符\n", c);
+	}
+	else {
+		printf("%c不是一個數字or英文字符\n", c);
+	}
+	printf("===============================\n");
+
+
+	return 0;
+}
+
+isalpha(c) → 判斷是否為字母 (A–Z, a–z)
+
+isdigit(c) → 判斷是否為數字 (0–9)
+
+isalnum(c) → 判斷是否為字母或數字
+
+isspace(c) → 判斷是否為空白字元（空格、Tab、換行等）
+
+isupper(c) → 判斷是否為大寫字母
+
+islower(c) → 判斷是否為小寫字母
+
+isxdigit(c) → 判斷是否為十六進位數字 (0–9, A–F, a–f)
+
+ispunct(c) → 判斷是否為標點符號
+
+isprint(c) → 判斷是否為可列印字元（包含空格）
+
+isgraph(c) → 判斷是否為可見字元（不含空格）
+
+iscntrl(c) → 判斷是否為控制字元（如換行、Tab）

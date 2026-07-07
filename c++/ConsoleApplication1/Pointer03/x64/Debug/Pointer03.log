@@ -1,0 +1,14 @@
+﻿  Pointer03.cpp
+E:\program exercise\c++\ConsoleApplication1\Pointer03\Pointer03.cpp(43,9): warning C4477: 'printf' : 格式字串 '%d' 需要 'int' 類型的引數，但 variadic 引數 1 的類型為 'int *'
+E:\program exercise\c++\ConsoleApplication1\Pointer03\Pointer03.cpp(43,9): warning C4313: 'printf': 格式字串中的 '%d' 與型別 'int *' 的引數 1 衝突
+E:\program exercise\c++\ConsoleApplication1\Pointer03\Pointer03.cpp(51,9): warning C4477: 'printf' : 格式字串 '%d' 需要 'int' 類型的引數，但 variadic 引數 1 的類型為 'int *'
+E:\program exercise\c++\ConsoleApplication1\Pointer03\Pointer03.cpp(51,9): warning C4313: 'printf': 格式字串中的 '%d' 與型別 'int *' 的引數 1 衝突
+E:\program exercise\c++\ConsoleApplication1\Pointer03\Pointer03.cpp(59,9): warning C4477: 'printf' : 格式字串 '%d' 需要 'int' 類型的引數，但 variadic 引數 1 的類型為 'int *'
+E:\program exercise\c++\ConsoleApplication1\Pointer03\Pointer03.cpp(59,9): warning C4313: 'printf': 格式字串中的 '%d' 與型別 'int *' 的引數 1 衝突
+E:\program exercise\c++\ConsoleApplication1\Pointer03\Pointer03.cpp(60,9): warning C4477: 'printf' : 格式字串 '%d' 需要 'int' 類型的引數，但 variadic 引數 1 的類型為 'int *'
+E:\program exercise\c++\ConsoleApplication1\Pointer03\Pointer03.cpp(60,9): warning C4313: 'printf': 格式字串中的 '%d' 與型別 'int *' 的引數 1 衝突
+E:\program exercise\c++\ConsoleApplication1\Pointer03\Pointer03.cpp(62,9): warning C4477: 'printf' : 格式字串 '%d' 需要 'int' 類型的引數，但 variadic 引數 1 的類型為 'int (*)[5]'
+E:\program exercise\c++\ConsoleApplication1\Pointer03\Pointer03.cpp(62,9): warning C4313: 'printf': 格式字串中的 '%d' 與型別 'int (*)[5]' 的引數 1 衝突
+E:\program exercise\c++\ConsoleApplication1\Pointer03\Pointer03.cpp(63,9): warning C4477: 'printf' : 格式字串 '%d' 需要 'int' 類型的引數，但 variadic 引數 1 的類型為 'int (*)[5]'
+E:\program exercise\c++\ConsoleApplication1\Pointer03\Pointer03.cpp(63,9): warning C4313: 'printf': 格式字串中的 '%d' 與型別 'int (*)[5]' 的引數 1 衝突
+  Pointer03.vcxproj -> E:\program exercise\c++\ConsoleApplication1\x64\Debug\Pointer03.exe

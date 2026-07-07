@@ -1,0 +1,79 @@
+結構體，struct，複合數據類型
+struct tag{
+	member-list;//成員列表
+}variable-list//變量列表;
+//======================================================
+struct Student {
+	char name[20];//姓名
+	int age;//年齡
+	char sex[5];//性別 => 1個中文2個字節
+	char id[20];//學號
+
+};
+//======================================================
+
+
+int main() {
+	struct Student stu1 = { "田所浩二",24,"男","114514" };
+	printf("%s\n", stu1.name);
+	printf("%d\n", stu1.age);
+	printf("%s\n", stu1.sex);
+	printf("%s\n", stu1.id);
+//=======================================================
+	struct Student* pstu = &stu1;//結構體指針
+	//訪問寫法
+	printf("%s\n", (*pstu).name);//先解引用再搜索
+	//解引用指向符->
+	printf("%s\n", pstu->id);
+	//指向符->等價於 (*結構體指針).變量
+//=======================================================
+//結構體傳參
+void print_struct(struct Student stu1) {
+	printf("%s\n", stu1.name);
+	printf("%d\n", stu1.age);
+	printf("%s\n", stu1.sex);
+	printf("%s\n", stu1.id);
+}
+//指針傳參
+void print_struct_pointer(struct Student *pstu) {
+	printf("%s\n", (*pstu).name);
+	printf("%d\n", (*pstu).age);
+	printf("%s\n", (*pstu).sex);
+	printf("%s\n", (*pstu).id);
+}
+
+printf("============函數傳參===========\n");
+print_struct(stu1);
+printf("===============================\n");
+
+printf("============指針傳參===========\n");
+print_struct_pointer(pstu);
+printf("===============================\n");
+在傳遞時，指針更為合適，因為只消耗地址大小，4or8 Byte，整個地址過於龐大
+//=========================================================
+//結構體對齊01
+struct S1{
+	char c1;//1
+	int i;//4
+	char c2;//1
+};
+0|1 2 3 |4 5 6 7|8|9 10 11 ，占用11個位子派發12 Byte
+printf("%d\n",sizeof(struct S1));//輸出12 Byte
+why?，應該是1+4+1=6
+A:編譯器會主動對齊成員中最大的數值
+
+*規則:
+1.結構體第一個成員對齊到起始偏移量為0的位置;
+2.從第二個開始都要對齊到對齊數
+=>存入資料後，每次取4個字節堆疊下去
+//===========================================================
+//結構體對齊02
+struct S2{
+	char c1;//1
+	char c2;//1
+	//1+1小於4，兩個占用4 Byte
+	int i;//4
+}
+printf("%d\n",sizeof(struct S2));//輸出8 Byte
+
+

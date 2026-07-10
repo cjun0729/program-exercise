@@ -1,0 +1,4 @@
+﻿  file_write_read.cpp
+E:\program exercise\c++\ConsoleApplication1\file_write_read\file_write_read.cpp(64,12): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+E:\program exercise\c++\ConsoleApplication1\file_write_read\file_write_read.cpp(77,11): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+  file_write_read.vcxproj -> E:\program exercise\c++\ConsoleApplication1\x64\Debug\file_write_read.exe
